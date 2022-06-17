@@ -1,7 +1,6 @@
 # cmp-plugins
 nvim-cmp source for Neovim plugins.
 
- 
 
 https://user-images.githubusercontent.com/11719845/174234402-90e120e7-a75e-46f3-8a32-afb8e1001c7e.mov
 
