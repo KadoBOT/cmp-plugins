@@ -47,7 +47,7 @@ function setup(_opts)
 
 		if user then
 			local id = repos._map[string.lower(user)]
-			local curRepos = repos[id]
+			local curRepos = repos.repos[id]
 			local result = {}
 
 			if curRepos then
