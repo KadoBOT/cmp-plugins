@@ -1,5 +1,6 @@
 import { writeFile } from "node:fs/promises"
 import { format } from 'lua-json'
+import { readFileSync } from "node:fs";
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -15,7 +16,8 @@ const url = (page = 1, created) => {
 	return base.toString()
 }
 const fullList = { _map: {}, repos: {} }
-const dates = ['created:*..2018-01-01', 'created:2018-01-01..2019-01-01', 'created:2019-01-01..2020-01-01', 'created:2020-01-01..2021-01-01', 'created:2021-01-01..2021-06-01', 'created:2021-06-01..2022-01-01', 'created:2022-01-01..2022-06-01', 'created:2022-06-01..*']
+// 30-06-22
+const dates = ['created:*..2018-01-01', 'created:2018-01-01..2019-01-01', 'created:2019-01-01..2020-01-01', 'created:2020-01-01..2021-01-01', 'created:2021-01-01..2021-06-01', 'created:2021-06-01..2022-01-01', 'created:2022-01-01..2022-06-01', 'created:2022-06-18..*']
 let pages = 10
 
 async function run() {
@@ -67,17 +69,23 @@ async function run() {
 	} catch (e) {
 		console.error(e)
 	} finally {
-		const orderedMap = Object.keys(fullList._map).sort().reduce((obj, key) => {
+		const buf = readFileSync("./list.json")
+		const list = JSON.parse(buf.toString('utf8'))
+
+		const orderedMap = Object.keys({ ...list._map, ...fullList._map }).sort().reduce((obj, key) => {
 			obj[key] = fullList._map[key]
 			return obj
 		}, {})
 
-		const orderedRepos = Object.keys(fullList.repos).sort().reduce((obj, key) => {
+		const orderedRepos = Object.keys({ ...list.repos, ...fullList.repos }).sort().reduce((obj, key) => {
 			obj[key] = fullList.repos[key]
 			return obj
 		}, {})
 
-		writeFile("list.lua", format({ repos: orderedRepos, _map: orderedMap }))
+		const newList = { repos: orderedRepos, _map: orderedMap }
+
+		writeFile("list.json", JSON.stringify(newList))
+		writeFile("list.lua", format(newList))
 	}
 }
 
