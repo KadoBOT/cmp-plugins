@@ -2,7 +2,7 @@ local repos = require("cmp-plugins.list")
 
 function setup(_opts)
 	local opts = {
-		files = { "*.lua" },
+		files = { ".*\\.lua" },
 	}
 	local source = {}
 
