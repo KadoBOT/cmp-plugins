@@ -16,9 +16,9 @@ function setup(_opts)
 	end
 
 	function source:is_available()
-		local filename = vim.fn.expand("%:t")
+		local filename = vim.fn.expand("%:p")
 		for _, glob in ipairs(opts.files) do
-			local re = vim.regex(glob .. "$")
+			local re = vim.regex(glob)
 			local s, e = re:match_str(filename)
 			if s and e then
 				return true
