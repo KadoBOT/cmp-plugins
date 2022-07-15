@@ -1,9 +1,10 @@
 import { writeFile } from "node:fs/promises"
 import { format } from 'lua-json'
 import { readFileSync } from "node:fs";
+import path from 'path'
 
 function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+	return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 const url = (page = 1, created) => {
@@ -16,8 +17,8 @@ const url = (page = 1, created) => {
 	return base.toString()
 }
 const fullList = { _map: {}, repos: {} }
-// 30-06-22
-const dates = ['created:*..2018-01-01', 'created:2018-01-01..2019-01-01', 'created:2019-01-01..2020-01-01', 'created:2020-01-01..2021-01-01', 'created:2021-01-01..2021-06-01', 'created:2021-06-01..2022-01-01', 'created:2022-01-01..2022-06-01', 'created:2022-06-18..*']
+// 15-07-22
+const dates = ['created:2022-06-30..*']
 let pages = 10
 
 async function run() {
@@ -69,23 +70,25 @@ async function run() {
 	} catch (e) {
 		console.error(e)
 	} finally {
-		const buf = readFileSync("./list.json")
+		const buf = readFileSync(path.resolve("./js/list.json"))
 		const list = JSON.parse(buf.toString('utf8'))
+		const mergedMap = { ...list._map, ...fullList._map }
+		const mergedRepos = { ...list.repos, ...fullList.repos }
 
-		const orderedMap = Object.keys({ ...list._map, ...fullList._map }).sort().reduce((obj, key) => {
-			obj[key] = fullList._map[key]
+		const orderedMap = Object.keys(mergedMap).sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1).reduce((obj, key) => {
+			obj[key] = mergedMap[key]
 			return obj
 		}, {})
 
-		const orderedRepos = Object.keys({ ...list.repos, ...fullList.repos }).sort().reduce((obj, key) => {
-			obj[key] = fullList.repos[key]
+		const orderedRepos = Object.keys(mergedRepos).sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1).reduce((obj, key) => {
+			obj[key] = mergedRepos[key]
 			return obj
 		}, {})
 
 		const newList = { repos: orderedRepos, _map: orderedMap }
 
-		writeFile("list.json", JSON.stringify(newList))
-		writeFile("list.lua", format(newList))
+		writeFile("./js/list.json", JSON.stringify(newList))
+		writeFile("./list.lua", format(newList))
 	}
 }
 
