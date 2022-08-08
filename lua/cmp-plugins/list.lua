@@ -244,11 +244,11 @@ return {
 		},
 		["4513ECHO"] = {
 			{
-				name = "vim-vimhelp-url",
-				full_name = "4513ECHO/vim-vimhelp-url",
-				url = "https://github.com/4513ECHO/vim-vimhelp-url",
-				description = "🔗 Create URL of vim help documentation",
-				stargazers_count = 7,
+				name = "neovim-prebuilt",
+				full_name = "4513ECHO/neovim-prebuilt",
+				url = "https://github.com/4513ECHO/neovim-prebuilt",
+				description = "📦 [WIP] Daily prebuilt Neovim binary via GitHub Actions",
+				stargazers_count = 0,
 			},
 		},
 		["4lgn"] = {
@@ -2142,6 +2142,15 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		anjerukare = {
+			{
+				name = "dotfiles",
+				full_name = "anjerukare/dotfiles",
+				url = "https://github.com/anjerukare/dotfiles",
+				description = "My dotfiles. It could be interesting for users of Colemak-DH and Neovim.",
+				stargazers_count = 0,
+			},
+		},
 		ankitjosh78 = {
 			{
 				name = "nvim",
@@ -2184,6 +2193,15 @@ return {
 				full_name = "AnsonH/neovim-config",
 				url = "https://github.com/AnsonH/neovim-config",
 				description = "Custom Lua configuration for Neovim v0.7.0+",
+				stargazers_count = 0,
+			},
+		},
+		antenore = {
+			{
+				name = "nvim-dotdogs",
+				full_name = "antenore/nvim-dotdogs",
+				url = "https://github.com/antenore/nvim-dotdogs",
+				description = "૮ ⚆ﻌ⚆ა My Neovim dot(dogs)files (mirror)",
 				stargazers_count = 0,
 			},
 		},
@@ -3317,6 +3335,15 @@ return {
 				stargazers_count = 32,
 			},
 		},
+		azratul = {
+			{
+				name = "devops-tools.nvim",
+				full_name = "azratul/devops-tools.nvim",
+				url = "https://github.com/azratul/devops-tools.nvim",
+				description = "Docker, Terraform for now, and soon: Helm & Kubectl commands",
+				stargazers_count = 3,
+			},
+		},
 		["b-ggs"] = {
 			{
 				name = "dotfiles",
@@ -3391,6 +3418,15 @@ return {
 				url = "https://github.com/b3nj5m1n/kommentary",
 				description = "Neovim commenting plugin, written in lua.",
 				stargazers_count = 498,
+			},
+		},
+		B4mbus = {
+			{
+				name = "oxocarbon-lua.nvim",
+				full_name = "B4mbus/oxocarbon-lua.nvim",
+				url = "https://github.com/B4mbus/oxocarbon-lua.nvim",
+				description = "A lua rewrite of the original oxocarbon theme.",
+				stargazers_count = 37,
 			},
 		},
 		Badhi = {
@@ -4205,6 +4241,15 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		BrandonBenn = {
+			{
+				name = "chezmoi",
+				full_name = "BrandonBenn/chezmoi",
+				url = "https://github.com/BrandonBenn/chezmoi",
+				description = "🏡  Dotfiles managed by chezmoi.",
+				stargazers_count = 0,
+			},
+		},
 		brandonburrus = {
 			{
 				name = "dotfiles",
@@ -4253,6 +4298,15 @@ return {
 				url = "https://github.com/BrendanGlancy/dotfiles",
 				description = "My vimrc settings, except I am using neovim now",
 				stargazers_count = 2,
+			},
+		},
+		brenoprata10 = {
+			{
+				name = "nvim-highlight-colors",
+				full_name = "brenoprata10/nvim-highlight-colors",
+				url = "https://github.com/brenoprata10/nvim-highlight-colors",
+				description = "Highlight colors for neovim",
+				stargazers_count = 41,
 			},
 		},
 		brentlintner = {
@@ -4610,6 +4664,15 @@ return {
 				url = "https://github.com/caiangums/dotfiles",
 				description = "📚 Dotfiles",
 				stargazers_count = 2,
+			},
+		},
+		caiolaytynher = {
+			{
+				name = "nvim",
+				full_name = "caiolaytynher/nvim",
+				url = "https://github.com/caiolaytynher/nvim",
+				description = "My Neovim config.",
+				stargazers_count = 0,
 			},
 		},
 		calazans10 = {
@@ -5034,6 +5097,15 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		ceoldevs = {
+			{
+				name = "nvim",
+				full_name = "ceoldevs/nvim",
+				url = "https://github.com/ceoldevs/nvim",
+				description = "A minimal neovim config written entirely in lua script",
+				stargazers_count = 0,
+			},
+		},
 		CeruttiMaicon = {
 			{
 				name = "init.vim",
@@ -5377,18 +5449,18 @@ return {
 		},
 		ChristianChiarulli = {
 			{
-				name = "lvim",
-				full_name = "ChristianChiarulli/lvim",
-				url = "https://github.com/ChristianChiarulli/lvim",
-				description = "My config for LunarVim",
-				stargazers_count = 67,
+				name = "colorgen-nvim",
+				full_name = "ChristianChiarulli/colorgen-nvim",
+				url = "https://github.com/ChristianChiarulli/colorgen-nvim",
+				description = "A colorscheme generator for neovim",
+				stargazers_count = 52,
 			},
 			{
-				name = "nvim.old",
-				full_name = "ChristianChiarulli/nvim.old",
-				url = "https://github.com/ChristianChiarulli/nvim.old",
-				description = nil,
-				stargazers_count = 3,
+				name = "colorblender",
+				full_name = "ChristianChiarulli/colorblender",
+				url = "https://github.com/ChristianChiarulli/colorblender",
+				description = "A python script to blend hex values",
+				stargazers_count = 6,
 			},
 		},
 		ChristianSch = {
@@ -5689,6 +5761,15 @@ return {
 				full_name = "CodesOfRishi/dotfiles",
 				url = "https://github.com/CodesOfRishi/dotfiles",
 				description = "Contains configurations/settings & requirements related to my Linux operating system(s).",
+				stargazers_count = 0,
+			},
+		},
+		CodEsteban = {
+			{
+				name = "NeoDoom",
+				full_name = "CodEsteban/NeoDoom",
+				url = "https://github.com/CodEsteban/NeoDoom",
+				description = "Neovim for the Refugee Stubborn Martian Hacker ",
 				stargazers_count = 0,
 			},
 		},
@@ -6948,6 +7029,15 @@ return {
 				stargazers_count = 256,
 			},
 		},
+		dbinagi = {
+			{
+				name = "nomodoro",
+				full_name = "dbinagi/nomodoro",
+				url = "https://github.com/dbinagi/nomodoro",
+				description = "Pomodoro time tracker for NeoVim written entirely in LUA",
+				stargazers_count = 22,
+			},
+		},
 		dbluhm = {
 			{
 				name = "bash-notes",
@@ -7332,6 +7422,15 @@ return {
 				url = "https://github.com/desmap/ale-sensible",
 				description = "Pretty, responsive and smooth defaults for a sane ALE, gets you started in 30 seconds ",
 				stargazers_count = 31,
+			},
+		},
+		desyncr = {
+			{
+				name = "neovim",
+				full_name = "desyncr/neovim",
+				url = "https://github.com/desyncr/neovim",
+				description = "Neovim configuration",
+				stargazers_count = 0,
 			},
 		},
 		devanlooches = {
@@ -8242,6 +8341,15 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		DrunkenToast = {
+			{
+				name = ".dotfiles",
+				full_name = "DrunkenToast/.dotfiles",
+				url = "https://github.com/DrunkenToast/.dotfiles",
+				description = "Connect the dots",
+				stargazers_count = 1,
+			},
+		},
 		druskus20 = {
 			{
 				name = "dots",
@@ -9051,18 +9159,11 @@ return {
 		},
 		epwalsh = {
 			{
-				name = "dotfiles",
-				full_name = "epwalsh/dotfiles",
-				url = "https://github.com/epwalsh/dotfiles",
-				description = "Practical dotfiles for (neo)vim hackers",
-				stargazers_count = 6,
-			},
-			{
-				name = "NvimAutoheader",
-				full_name = "epwalsh/NvimAutoheader",
-				url = "https://github.com/epwalsh/NvimAutoheader",
-				description = "Automatic header management for Neovim (no longer maintained)",
-				stargazers_count = 1,
+				name = "obsidian.nvim",
+				full_name = "epwalsh/obsidian.nvim",
+				url = "https://github.com/epwalsh/obsidian.nvim",
+				description = "Neovim plugin for Obsidian, written in Lua",
+				stargazers_count = 8,
 			},
 		},
 		equalsraf = {
@@ -9412,6 +9513,15 @@ return {
 				stargazers_count = 14,
 			},
 		},
+		["ewan-wakeman"] = {
+			{
+				name = "nvim_config",
+				full_name = "ewan-wakeman/nvim_config",
+				url = "https://github.com/ewan-wakeman/nvim_config",
+				description = "NeoVim config",
+				stargazers_count = 0,
+			},
+		},
 		exAspArk = {
 			{
 				name = "dotfiles",
@@ -9566,6 +9676,15 @@ return {
 				stargazers_count = 2,
 			},
 		},
+		FakeSudo = {
+			{
+				name = "DevOps.nvim",
+				full_name = "FakeSudo/DevOps.nvim",
+				url = "https://github.com/FakeSudo/DevOps.nvim",
+				description = "neovim (@nvchad) configuration for DevOps engineers",
+				stargazers_count = 4,
+			},
+		},
 		FalacerSelene = {
 			{
 				name = "vim-commentable",
@@ -9573,6 +9692,15 @@ return {
 				url = "https://github.com/FalacerSelene/vim-commentable",
 				description = "Block comment formatting for Vim.",
 				stargazers_count = 0,
+			},
+		},
+		famiclone = {
+			{
+				name = "nvim-lua-guide-ua",
+				full_name = "famiclone/nvim-lua-guide-ua",
+				url = "https://github.com/famiclone/nvim-lua-guide-ua",
+				description = nil,
+				stargazers_count = 3,
 			},
 		},
 		farbodsz = {
@@ -10022,6 +10150,22 @@ return {
 				stargazers_count = 10,
 			},
 		},
+		["Flo-Slv"] = {
+			{
+				name = "Dotfiles",
+				full_name = "Flo-Slv/Dotfiles",
+				url = "https://github.com/Flo-Slv/Dotfiles",
+				description = "My full development environment ",
+				stargazers_count = 0,
+			},
+			{
+				name = "Tokyonight-fade.nvim",
+				full_name = "Flo-Slv/Tokyonight-fade.nvim",
+				url = "https://github.com/Flo-Slv/Tokyonight-fade.nvim",
+				description = "WIP - Fade inactive buffers when you use Tokyonight storm theme",
+				stargazers_count = 0,
+			},
+		},
 		floaterest = {
 			{
 				name = "nvim",
@@ -10172,6 +10316,24 @@ return {
 				full_name = "fowlie/nixos-config",
 				url = "https://github.com/fowlie/nixos-config",
 				description = "NixOS configuration and dotfiles for both my laptops",
+				stargazers_count = 0,
+			},
+		},
+		["Fr4nk1in-USTC"] = {
+			{
+				name = "Nvim-Config",
+				full_name = "Fr4nk1in-USTC/Nvim-Config",
+				url = "https://github.com/Fr4nk1in-USTC/Nvim-Config",
+				description = "My NeoVim Configuration",
+				stargazers_count = 0,
+			},
+		},
+		franciniltonsoaresmenzes = {
+			{
+				name = "custom",
+				full_name = "franciniltonsoaresmenzes/custom",
+				url = "https://github.com/franciniltonsoaresmenzes/custom",
+				description = "my Custom Nvchad",
 				stargazers_count = 0,
 			},
 		},
@@ -11127,18 +11289,11 @@ return {
 		},
 		glepnir = {
 			{
-				name = "cosynvim",
-				full_name = "glepnir/cosynvim",
-				url = "https://github.com/glepnir/cosynvim",
-				description = " a modern structure neovim config template write in lua",
-				stargazers_count = 148,
-			},
-			{
-				name = "template.nvim",
-				full_name = "glepnir/template.nvim",
-				url = "https://github.com/glepnir/template.nvim",
-				description = "Quickly insert templates into file",
-				stargazers_count = 40,
+				name = "mcc.nvim",
+				full_name = "glepnir/mcc.nvim",
+				url = "https://github.com/glepnir/mcc.nvim",
+				description = "neovim macgic char",
+				stargazers_count = 17,
 			},
 		},
 		glippi = {
@@ -11216,6 +11371,24 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		["gordun209-hub"] = {
+			{
+				name = "mydots",
+				full_name = "gordun209-hub/mydots",
+				url = "https://github.com/gordun209-hub/mydots",
+				description = "garuda linux dotfiles ",
+				stargazers_count = 3,
+			},
+		},
+		GotoRen = {
+			{
+				name = "dotfiles",
+				full_name = "GotoRen/dotfiles",
+				url = "https://github.com/GotoRen/dotfiles",
+				description = "A set of vim, zsh, git, and tmux configuration files.",
+				stargazers_count = 0,
+			},
+		},
 		gou3105 = {
 			{
 				name = "dein-setting",
@@ -11289,6 +11462,15 @@ return {
 				stargazers_count = 1,
 			},
 		},
+		gravndal = {
+			{
+				name = "shiftwidth_leadmultispace.nvim",
+				full_name = "gravndal/shiftwidth_leadmultispace.nvim",
+				url = "https://github.com/gravndal/shiftwidth_leadmultispace.nvim",
+				description = "A very simple indent guides plugin.",
+				stargazers_count = 0,
+			},
+		},
 		GrayJack = {
 			{
 				name = "configs",
@@ -11332,6 +11514,15 @@ return {
 				url = "https://github.com/grenmester/dotfiles",
 				description = "🛠 Arch Linux and macOS personal dotfiles",
 				stargazers_count = 1,
+			},
+		},
+		grimerssy = {
+			{
+				name = "nvim",
+				full_name = "grimerssy/nvim",
+				url = "https://github.com/grimerssy/nvim",
+				description = "Neovim configuration",
+				stargazers_count = 0,
 			},
 		},
 		grimoh = {
@@ -12410,6 +12601,15 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		hlucco = {
+			{
+				name = "nvim-eswpoch",
+				full_name = "hlucco/nvim-eswpoch",
+				url = "https://github.com/hlucco/nvim-eswpoch",
+				description = "Plugin for executing inline swaps between timestamps and viewing corresponding GMT time. ",
+				stargazers_count = 28,
+			},
+		},
 		["hmaier-ipb"] = {
 			{
 				name = "win-configurator",
@@ -13410,17 +13610,10 @@ return {
 		},
 		ItaloCobains = {
 			{
-				name = "My-editor-in-terminal",
-				full_name = "ItaloCobains/My-editor-in-terminal",
-				url = "https://github.com/ItaloCobains/My-editor-in-terminal",
-				description = "Construindo um editor de texto em C inspirado no vim/neovim, com base em um livro usando termios e libs padrões do C",
-				stargazers_count = 0,
-			},
-			{
-				name = "basic-struct-for-nvim-plugins",
-				full_name = "ItaloCobains/basic-struct-for-nvim-plugins",
-				url = "https://github.com/ItaloCobains/basic-struct-for-nvim-plugins",
-				description = "Struct basic for neovim plugins",
+				name = "My-config-Neovim-with-lua",
+				full_name = "ItaloCobains/My-config-Neovim-with-lua",
+				url = "https://github.com/ItaloCobains/My-config-Neovim-with-lua",
+				description = "My config Neovim with lua",
 				stargazers_count = 0,
 			},
 		},
@@ -14205,6 +14398,15 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		jcha0713 = {
+			{
+				name = "cmp-tw2css",
+				full_name = "jcha0713/cmp-tw2css",
+				url = "https://github.com/jcha0713/cmp-tw2css",
+				description = "A source for nvim-cmp to convert tailwindcss classes to pure css codes",
+				stargazers_count = 3,
+			},
+		},
 		jchilders = {
 			{
 				name = "dotfiles",
@@ -14603,6 +14805,15 @@ return {
 				url = "https://github.com/jlesquembre/coc-conjure",
 				description = "Conjure extension for coc.nvim",
 				stargazers_count = 33,
+			},
+		},
+		Jlll1 = {
+			{
+				name = "nvim-lua",
+				full_name = "Jlll1/nvim-lua",
+				url = "https://github.com/Jlll1/nvim-lua",
+				description = "My personal Neovim configuration, written 100% in Lua",
+				stargazers_count = 0,
 			},
 		},
 		jlobos = {
@@ -16279,6 +16490,15 @@ return {
 				stargazers_count = 3,
 			},
 		},
+		kitanoyoru = {
+			{
+				name = "nvim",
+				full_name = "kitanoyoru/nvim",
+				url = "https://github.com/kitanoyoru/nvim",
+				description = "My neovim configuration",
+				stargazers_count = 0,
+			},
+		},
 		kiyeo = {
 			{
 				name = "dotfiles",
@@ -17910,6 +18130,15 @@ return {
 				stargazers_count = 1,
 			},
 		},
+		LGUG2Z = {
+			{
+				name = "helix-vim",
+				full_name = "LGUG2Z/helix-vim",
+				url = "https://github.com/LGUG2Z/helix-vim",
+				description = "A Vim-like configuration for Helix",
+				stargazers_count = 88,
+			},
+		},
 		Liberatys = {
 			{
 				name = "nvim_conf",
@@ -18104,11 +18333,11 @@ return {
 		},
 		linuxmobile = {
 			{
-				name = "dwm-dots",
-				full_name = "linuxmobile/dwm-dots",
-				url = "https://github.com/linuxmobile/dwm-dots",
-				description = "🎁 An easy way to install DWM + Dots",
-				stargazers_count = 36,
+				name = "hyprland-dots",
+				full_name = "linuxmobile/hyprland-dots",
+				url = "https://github.com/linuxmobile/hyprland-dots",
+				description = nil,
+				stargazers_count = 33,
 			},
 		},
 		lionawurscht = {
@@ -18856,25 +19085,11 @@ return {
 		},
 		LunarVim = {
 			{
-				name = "LunarVim",
-				full_name = "LunarVim/LunarVim",
-				url = "https://github.com/LunarVim/LunarVim",
-				description = "An IDE layer for Neovim with sane defaults. Completely free and community driven.",
-				stargazers_count = 9267,
-			},
-			{
-				name = "Neovim-from-scratch",
-				full_name = "LunarVim/Neovim-from-scratch",
-				url = "https://github.com/LunarVim/Neovim-from-scratch",
-				description = "A Neovim config designed from scratch to be understandable",
-				stargazers_count = 2519,
-			},
-			{
-				name = "lunarvim.org",
-				full_name = "LunarVim/lunarvim.org",
-				url = "https://github.com/LunarVim/lunarvim.org",
-				description = "Website for LunarVim",
-				stargazers_count = 53,
+				name = "horizon.nvim",
+				full_name = "LunarVim/horizon.nvim",
+				url = "https://github.com/LunarVim/horizon.nvim",
+				description = "Neovim port of horizon colorscheme :sunrise:",
+				stargazers_count = 45,
 			},
 		},
 		lunixbochs = {
@@ -18918,6 +19133,15 @@ return {
 				url = "https://github.com/luzhlon/akm.vim",
 				description = "Awesome KeyMapping for (Neo)Vim",
 				stargazers_count = 0,
+			},
+		},
+		lvimuser = {
+			{
+				name = "lsp-inlayhints.nvim",
+				full_name = "lvimuser/lsp-inlayhints.nvim",
+				url = "https://github.com/lvimuser/lsp-inlayhints.nvim",
+				description = nil,
+				stargazers_count = 55,
 			},
 		},
 		lwflwf1 = {
@@ -19082,6 +19306,15 @@ return {
 				url = "https://github.com/m4yk3ldev/config",
 				description = "Configuraciones para Wezterm, Vim o NeoVim, i3, Rofi",
 				stargazers_count = 2,
+			},
+		},
+		maacpiash = {
+			{
+				name = "dotfiles",
+				full_name = "maacpiash/dotfiles",
+				url = "https://github.com/maacpiash/dotfiles",
+				description = "You know what it is.",
+				stargazers_count = 0,
 			},
 		},
 		macthecadillac = {
@@ -19480,6 +19713,15 @@ return {
 				stargazers_count = 3,
 			},
 		},
+		martineausimon = {
+			{
+				name = "nvim-lilypond-suite",
+				full_name = "martineausimon/nvim-lilypond-suite",
+				url = "https://github.com/martineausimon/nvim-lilypond-suite",
+				description = "Neovim plugin for writing LilyPond scores, with asynchronous make, midi/mp3 player, updated syntax, and support for LaTex files",
+				stargazers_count = 3,
+			},
+		},
 		martinpelikan = {
 			{
 				name = "dotfiles",
@@ -19667,6 +19909,15 @@ return {
 				url = "https://github.com/mattpreziotti/.dotfiles",
 				description = "Repository for configuration files",
 				stargazers_count = 0,
+			},
+		},
+		Matts966 = {
+			{
+				name = "skk-vconv.vim",
+				full_name = "Matts966/skk-vconv.vim",
+				url = "https://github.com/Matts966/skk-vconv.vim",
+				description = "SKKで間違えて確定してしまった文字列を後から変換するためのプラグインです。",
+				stargazers_count = 14,
 			},
 		},
 		matveyt = {
@@ -21053,6 +21304,15 @@ return {
 				stargazers_count = 18,
 			},
 		},
+		MMudabirKuchey = {
+			{
+				name = "nvimconfig",
+				full_name = "MMudabirKuchey/nvimconfig",
+				url = "https://github.com/MMudabirKuchey/nvimconfig",
+				description = "This is my nvim config",
+				stargazers_count = 1,
+			},
+		},
 		mnabila = {
 			{
 				name = "nvimrc",
@@ -21421,6 +21681,15 @@ return {
 				stargazers_count = 6,
 			},
 		},
+		mrbjarksen = {
+			{
+				name = "neo-tree-diagnostics.nvim",
+				full_name = "mrbjarksen/neo-tree-diagnostics.nvim",
+				url = "https://github.com/mrbjarksen/neo-tree-diagnostics.nvim",
+				description = "A diagnostics source for neo-tree.nvim",
+				stargazers_count = 48,
+			},
+		},
 		mrdarcychen = {
 			{
 				name = "dotfiles",
@@ -21459,53 +21728,11 @@ return {
 		},
 		mrjones2014 = {
 			{
-				name = "dotfiles",
-				full_name = "mrjones2014/dotfiles",
-				url = "https://github.com/mrjones2014/dotfiles",
-				description = "Dotfiles for Neovim (0.7+), Fish shell, git, Kitty, tmux, and more.",
-				stargazers_count = 46,
-			},
-			{
-				name = "dash.nvim",
-				full_name = "mrjones2014/dash.nvim",
-				url = "https://github.com/mrjones2014/dash.nvim",
-				description = "🏃💨 Search Dash.app from your Neovim fuzzy finder. Built with Rust 🦀 and Lua",
-				stargazers_count = 153,
-			},
-			{
-				name = "lighthaus.nvim",
-				full_name = "mrjones2014/lighthaus.nvim",
-				url = "https://github.com/mrjones2014/lighthaus.nvim",
-				description = "A Lua implementation of lighthaus-theme/vim-lighthaus",
-				stargazers_count = 46,
-			},
-			{
-				name = "tldr.nvim",
-				full_name = "mrjones2014/tldr.nvim",
-				url = "https://github.com/mrjones2014/tldr.nvim",
-				description = "🔭 A Telescope previewer for tldr-pages",
-				stargazers_count = 13,
-			},
-			{
-				name = "load-all.nvim",
-				full_name = "mrjones2014/load-all.nvim",
-				url = "https://github.com/mrjones2014/load-all.nvim",
-				description = "A Neovim plugin that lets you load/execute all Lua files in a directory at once",
-				stargazers_count = 1,
-			},
-			{
-				name = "legendary.nvim",
-				full_name = "mrjones2014/legendary.nvim",
-				url = "https://github.com/mrjones2014/legendary.nvim",
-				description = "🗺️ A legend for your keymaps, commands, and autocmds, with which-key.nvim integration",
-				stargazers_count = 362,
-			},
-			{
-				name = "smart-splits.nvim",
-				full_name = "mrjones2014/smart-splits.nvim",
-				url = "https://github.com/mrjones2014/smart-splits.nvim",
-				description = '🧠 Smart, directional Neovim split resizing and navigation. Think about resizing splits in terms of "move the divider to the left/right/up/down".',
-				stargazers_count = 132,
+				name = "op.nvim",
+				full_name = "mrjones2014/op.nvim",
+				url = "https://github.com/mrjones2014/op.nvim",
+				description = "1Password for Neovim",
+				stargazers_count = 4,
 			},
 		},
 		mrjosh = {
@@ -21905,6 +22132,15 @@ return {
 				stargazers_count = 2,
 			},
 		},
+		Mvcvalli = {
+			{
+				name = "nvim",
+				full_name = "Mvcvalli/nvim",
+				url = "https://github.com/Mvcvalli/nvim",
+				description = "My Neovim Configuration.",
+				stargazers_count = 0,
+			},
+		},
 		mvilim = {
 			{
 				name = "neovim-pytc-example",
@@ -22079,6 +22315,15 @@ return {
 				url = "https://github.com/naibaf0/dotfiles",
 				description = "My dotfiles, with an out-of-date install-script. Arch, Tiling WM (i3, sway), ZSH, Neovim",
 				stargazers_count = 19,
+			},
+		},
+		naijab = {
+			{
+				name = "astronvim-config",
+				full_name = "naijab/astronvim-config",
+				url = "https://github.com/naijab/astronvim-config",
+				description = "My Astronvim Config",
+				stargazers_count = 0,
 			},
 		},
 		Namakete = {
@@ -23129,6 +23374,15 @@ return {
 				stargazers_count = 2,
 			},
 		},
+		nicolascb = {
+			{
+				name = "dnd.nvim",
+				full_name = "nicolascb/dnd.nvim",
+				url = "https://github.com/nicolascb/dnd.nvim",
+				description = "A plugin for neovim to manage `Do Not Disturb` feature.",
+				stargazers_count = 9,
+			},
+		},
 		nicolasgross = {
 			{
 				name = "dotfiles",
@@ -23424,6 +23678,15 @@ return {
 				stargazers_count = 3,
 			},
 		},
+		noetarbouriech = {
+			{
+				name = "nvim-config",
+				full_name = "noetarbouriech/nvim-config",
+				url = "https://github.com/noetarbouriech/nvim-config",
+				description = "Personal neovim config in lua",
+				stargazers_count = 0,
+			},
+		},
 		["Noi-q"] = {
 			{
 				name = "config",
@@ -23454,6 +23717,15 @@ return {
 				url = "https://github.com/noib3/nvim-oxi",
 				description = ":link: Rust bindings to all things Neovim",
 				stargazers_count = 30,
+			},
+		},
+		noncomplete = {
+			{
+				name = "noncomplete_dotfiles",
+				full_name = "noncomplete/noncomplete_dotfiles",
+				url = "https://github.com/noncomplete/noncomplete_dotfiles",
+				description = "Dotfile management for my archlinux environment",
+				stargazers_count = 0,
 			},
 		},
 		nonoMain = {
@@ -24564,6 +24836,15 @@ return {
 				url = "https://github.com/olimorris/neotest-phpunit",
 				description = "Neotest adapter for PHPUnit",
 				stargazers_count = 1,
+			},
+		},
+		olivercederborg = {
+			{
+				name = "poimandres.nvim",
+				full_name = "olivercederborg/poimandres.nvim",
+				url = "https://github.com/olivercederborg/poimandres.nvim",
+				description = "Poimandres colorscheme for Neovim written in Lua",
+				stargazers_count = 2,
 			},
 		},
 		oliverdelancey = {
@@ -26682,6 +26963,15 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		["quarto-dev"] = {
+			{
+				name = "quarto-nvim",
+				full_name = "quarto-dev/quarto-nvim",
+				url = "https://github.com/quarto-dev/quarto-nvim",
+				description = "Quarto mode for Neovim",
+				stargazers_count = 9,
+			},
+		},
 		quqiuzhu = {
 			{
 				name = "nvim-config.lua",
@@ -27473,7 +27763,7 @@ return {
 				full_name = "remfly/nvim",
 				url = "https://github.com/remfly/nvim",
 				description = "Configuration files for Neovim",
-				stargazers_count = 1,
+				stargazers_count = 0,
 			},
 		},
 		["remi-gelinas"] = {
@@ -27889,53 +28179,11 @@ return {
 		},
 		rktjmp = {
 			{
-				name = "lush.nvim",
-				full_name = "rktjmp/lush.nvim",
-				url = "https://github.com/rktjmp/lush.nvim",
-				description = "Create Neovim themes with real-time feedback, export anywhere.",
-				stargazers_count = 755,
-			},
-			{
-				name = "fwatch.nvim",
-				full_name = "rktjmp/fwatch.nvim",
-				url = "https://github.com/rktjmp/fwatch.nvim",
-				description = "fwatch.nvim lets you watch files or directories for changes and then run vim commands or lua functions.",
-				stargazers_count = 48,
-			},
-			{
-				name = "hotpot.nvim",
-				full_name = "rktjmp/hotpot.nvim",
-				url = "https://github.com/rktjmp/hotpot.nvim",
-				description = ":stew: Carl Weathers #1 Neovim Plugin.",
-				stargazers_count = 151,
-			},
-			{
-				name = "paperplanes.nvim",
-				full_name = "rktjmp/paperplanes.nvim",
-				url = "https://github.com/rktjmp/paperplanes.nvim",
-				description = "Neovim :airplane: Pastebins",
-				stargazers_count = 50,
-			},
-			{
-				name = "highlight-current-n.nvim",
-				full_name = "rktjmp/highlight-current-n.nvim",
-				url = "https://github.com/rktjmp/highlight-current-n.nvim",
-				description = "Highlights the current /, ? or * match under your cursor when pressing n or N and gets out of the way afterwards.",
-				stargazers_count = 44,
-			},
-			{
-				name = "shipwright.nvim",
-				full_name = "rktjmp/shipwright.nvim",
-				url = "https://github.com/rktjmp/shipwright.nvim",
-				description = ":anchor: Build stuff, or don't. IDC.",
-				stargazers_count = 31,
-			},
-			{
-				name = "pact.nvim",
-				full_name = "rktjmp/pact.nvim",
-				url = "https://github.com/rktjmp/pact.nvim",
-				description = "🔪🩸🐐",
-				stargazers_count = 16,
+				name = "shenzhen-solitaire.nvim",
+				full_name = "rktjmp/shenzhen-solitaire.nvim",
+				url = "https://github.com/rktjmp/shenzhen-solitaire.nvim",
+				description = "Shenzhen I/O Solitaire, now in Neovim",
+				stargazers_count = 5,
 			},
 		},
 		rlch = {
@@ -28295,6 +28543,15 @@ return {
 				stargazers_count = 391,
 			},
 		},
+		rouge8 = {
+			{
+				name = "neotest-rust",
+				full_name = "rouge8/neotest-rust",
+				url = "https://github.com/rouge8/neotest-rust",
+				description = "Neotest adapter for Rust, using cargo-nextest.",
+				stargazers_count = 2,
+			},
+		},
 		roxma = {
 			{
 				name = "nvim-completion-manager",
@@ -28572,6 +28829,15 @@ return {
 				url = "https://github.com/ryoppippi/bad-apple.vim",
 				description = 'Do you wanna watch "Bad Apple!!" on your vim/neovim?',
 				stargazers_count = 10,
+			},
+		},
+		["Ryusei-0407"] = {
+			{
+				name = "nvim-minimal",
+				full_name = "Ryusei-0407/nvim-minimal",
+				url = "https://github.com/Ryusei-0407/nvim-minimal",
+				description = "NeoVim startup and minimal config",
+				stargazers_count = 1,
 			},
 		},
 		rzaluska = {
@@ -29674,32 +29940,11 @@ return {
 		},
 		shaunsingh = {
 			{
-				name = "nord.nvim",
-				full_name = "shaunsingh/nord.nvim",
-				url = "https://github.com/shaunsingh/nord.nvim",
-				description = "Neovim theme based off of the Nord Color Palette, written in lua with tree sitter support",
-				stargazers_count = 368,
-			},
-			{
-				name = "solarized.nvim",
-				full_name = "shaunsingh/solarized.nvim",
-				url = "https://github.com/shaunsingh/solarized.nvim",
-				description = "Port of the Solarized colorscheme for vim, written in lua, with treesitter support. ",
-				stargazers_count = 74,
-			},
-			{
-				name = "nyoom.nvim",
-				full_name = "shaunsingh/nyoom.nvim",
-				url = "https://github.com/shaunsingh/nyoom.nvim",
-				description = "Blazing fast, configurable, minimal and lispy neovim config written in Fennel. Base config for users to extend and add upon, leading to a more unique editing experience. (🚀)",
-				stargazers_count = 203,
-			},
-			{
-				name = "solarized.nvim",
-				full_name = "shaunsingh/solarized.nvim",
-				url = "https://github.com/shaunsingh/solarized.nvim",
-				description = "Port of the Solarized colorscheme for vim, written in lua, with treesitter support. ",
-				stargazers_count = 74,
+				name = "oxocarbon.nvim",
+				full_name = "shaunsingh/oxocarbon.nvim",
+				url = "https://github.com/shaunsingh/oxocarbon.nvim",
+				description = "A dark and light Neovim theme written in Rust, inspired by IBM Carbon.",
+				stargazers_count = 171,
 			},
 		},
 		shawnyu5 = {
@@ -31790,53 +32035,11 @@ return {
 		},
 		["tamton-aquib"] = {
 			{
-				name = "staline.nvim",
-				full_name = "tamton-aquib/staline.nvim",
-				url = "https://github.com/tamton-aquib/staline.nvim",
-				description = "A modern lightweight statusline and bufferline plugin for neovim in lua. Mainly uses unicode symbols for showing info.",
-				stargazers_count = 169,
-			},
-			{
-				name = "dotfiles",
-				full_name = "tamton-aquib/dotfiles",
-				url = "https://github.com/tamton-aquib/dotfiles",
-				description = "My personal config files copied from all over the internet.",
-				stargazers_count = 9,
-			},
-			{
-				name = "duck.nvim",
-				full_name = "tamton-aquib/duck.nvim",
-				url = "https://github.com/tamton-aquib/duck.nvim",
-				description = "A duck that waddles arbitrarily in neovim.",
-				stargazers_count = 49,
-			},
-			{
-				name = "nvim",
-				full_name = "tamton-aquib/nvim",
-				url = "https://github.com/tamton-aquib/nvim",
-				description = "Personal neovim config",
-				stargazers_count = 24,
-			},
-			{
-				name = "essentials.nvim",
-				full_name = "tamton-aquib/essentials.nvim",
-				url = "https://github.com/tamton-aquib/essentials.nvim",
-				description = "Some tiny functions which i use regularly in neovim. Not a plugin per se.",
-				stargazers_count = 15,
-			},
-			{
-				name = "zone.nvim",
-				full_name = "tamton-aquib/zone.nvim",
-				url = "https://github.com/tamton-aquib/zone.nvim",
-				description = "Screensaver plugin for neovim.",
-				stargazers_count = 22,
-			},
-			{
-				name = "keys.nvim",
-				full_name = "tamton-aquib/keys.nvim",
-				url = "https://github.com/tamton-aquib/keys.nvim",
-				description = "A screen keys plugin for neovim.",
-				stargazers_count = 10,
+				name = "stuff.nvim",
+				full_name = "tamton-aquib/stuff.nvim",
+				url = "https://github.com/tamton-aquib/stuff.nvim",
+				description = "Some semi-util useless plugins put together",
+				stargazers_count = 6,
 			},
 		},
 		tandy1229 = {
@@ -32861,6 +33064,15 @@ return {
 				stargazers_count = 372,
 			},
 		},
+		timrekelj = {
+			{
+				name = "neotim",
+				full_name = "timrekelj/neotim",
+				url = "https://github.com/timrekelj/neotim",
+				description = "My personal blazing fast neovim configuration.",
+				stargazers_count = 0,
+			},
+		},
 		Tinku10 = {
 			{
 				name = "config-nvim",
@@ -33419,6 +33631,15 @@ return {
 				url = "https://github.com/tsushant/dotfiles",
 				description = "Config files vim, zsh, tmux",
 				stargazers_count = 0,
+			},
+		},
+		Tsuzat = {
+			{
+				name = "NeoSolarized.nvim",
+				full_name = "Tsuzat/NeoSolarized.nvim",
+				url = "https://github.com/Tsuzat/NeoSolarized.nvim",
+				description = "NeoSolarized colorscheme for NeoVim with full transparency",
+				stargazers_count = 11,
 			},
 		},
 		ttak0422 = {
@@ -34346,6 +34567,15 @@ return {
 				url = "https://github.com/Vimjas/covimerage",
 				description = "Generate coverage information for Vim scripts.",
 				stargazers_count = 43,
+			},
+		},
+		vimpl = {
+			{
+				name = "vim-pluginhelp",
+				full_name = "vimpl/vim-pluginhelp",
+				url = "https://github.com/vimpl/vim-pluginhelp",
+				description = "Display short plugin help for mappings and settings",
+				stargazers_count = 0,
 			},
 		},
 		vimpostor = {
@@ -35736,6 +35966,29 @@ return {
 				stargazers_count = 1,
 			},
 		},
+		wuelnerdotexe = {
+			{
+				name = "vim-astro",
+				full_name = "wuelnerdotexe/vim-astro",
+				url = "https://github.com/wuelnerdotexe/vim-astro",
+				description = "Astro language (.astro files) indentation and syntax support in Vim or Neovim. 🚀🧑‍🚀✨",
+				stargazers_count = 4,
+			},
+			{
+				name = "human.vim",
+				full_name = "wuelnerdotexe/human.vim",
+				url = "https://github.com/wuelnerdotexe/human.vim",
+				description = "Collection of vim default options for humans.",
+				stargazers_count = 1,
+			},
+			{
+				name = "nerdterm",
+				full_name = "wuelnerdotexe/nerdterm",
+				url = "https://github.com/wuelnerdotexe/nerdterm",
+				description = "A term toggle plugin for vim.",
+				stargazers_count = 1,
+			},
+		},
 		WuG978 = {
 			{
 				name = "Neovim",
@@ -36894,6 +37147,22 @@ return {
 				stargazers_count = 0,
 			},
 		},
+		zakharykaplan = {
+			{
+				name = "nvim-retrail",
+				full_name = "zakharykaplan/nvim-retrail",
+				url = "https://github.com/zakharykaplan/nvim-retrail",
+				description = "Whitespace management for Neovim",
+				stargazers_count = 21,
+			},
+			{
+				name = "nvim",
+				full_name = "zakharykaplan/nvim",
+				url = "https://github.com/zakharykaplan/nvim",
+				description = "My awesome Neovim setup",
+				stargazers_count = 0,
+			},
+		},
 		["Zane-"] = {
 			{
 				name = "lionvim",
@@ -37534,11 +37803,13 @@ return {
 		angelofallars = "angelofallars",
 		anggape = "anggape",
 		["anindya-prithvi"] = "Anindya-Prithvi",
+		anjerukare = "anjerukare",
 		ankitjosh78 = "ankitjosh78",
 		ankush = "ankush",
 		anokidev = "anokidev",
 		anoopkcn = "anoopkcn",
 		ansonh = "AnsonH",
+		antenore = "antenore",
 		anthonyk213 = "AnthonyK213",
 		antoinemadec = "antoinemadec",
 		antonio0x = "antonio0x",
@@ -37635,9 +37906,11 @@ return {
 		ayoisaiah = "ayoisaiah",
 		ayushnix = "ayushnix",
 		azadkuh = "azadkuh",
+		azratul = "azratul",
 		["b-ggs"] = "b-ggs",
 		b0o = "b0o",
 		b3nj5m1n = "b3nj5m1n",
+		b4mbus = "B4mbus",
 		badhi = "Badhi",
 		balajisivaraman = "balajisivaraman",
 		bamzi = "bamzi",
@@ -37715,10 +37988,12 @@ return {
 		["braindead-cc"] = "braindead-cc",
 		brainfucksec = "brainfucksec",
 		bramkok = "bramkok",
+		brandonbenn = "BrandonBenn",
 		brandonburrus = "brandonburrus",
 		brandonsoto = "brandonsoto",
 		brandonwillard = "brandonwillard",
 		brendanglancy = "BrendanGlancy",
+		brenoprata10 = "brenoprata10",
 		brentlintner = "brentlintner",
 		brettanomyces = "brettanomyces",
 		breuerfelix = "breuerfelix",
@@ -37754,6 +38029,7 @@ return {
 		cahian = "cahian",
 		["caian-org"] = "caian-org",
 		caiangums = "caiangums",
+		caiolaytynher = "caiolaytynher",
 		calazans10 = "calazans10",
 		calbabreaker = "Calbabreaker",
 		calbertts = "calbertts",
@@ -37790,6 +38066,7 @@ return {
 		cdxxii = "CDXXII",
 		celediel = "celediel",
 		celj = "celj",
+		ceoldevs = "ceoldevs",
 		ceruttimaicon = "CeruttiMaicon",
 		cesarsl = "cesarsl",
 		cfangmeier = "cfangmeier",
@@ -37853,6 +38130,7 @@ return {
 		codeaholicguy = "codeaholicguy",
 		coderj001 = "coderj001",
 		codesofrishi = "CodesOfRishi",
+		codesteban = "CodEsteban",
 		codingotaku = "codingotaku",
 		coijanovic = "coijanovic",
 		coldwine = "Coldwine",
@@ -37970,6 +38248,7 @@ return {
 		dbalatero = "dbalatero",
 		dbeley = "dbeley",
 		dbgx = "dbgx",
+		dbinagi = "dbinagi",
 		dbluhm = "dbluhm",
 		dcampos = "dcampos",
 		dcariotti = "dcariotti",
@@ -37995,6 +38274,7 @@ return {
 		derekahn = "derekahn",
 		desantbucie = "DesantBucie",
 		desmap = "desmap",
+		desyncr = "desyncr",
 		devanlooches = "devanlooches",
 		devcontainer = "devcontainer",
 		develerik = "develerik",
@@ -38078,6 +38358,7 @@ return {
 		drrlvn = "drrlvn",
 		druckdev = "druckdev",
 		drull1000 = "drull1000",
+		drunkentoast = "DrunkenToast",
 		druskus20 = "druskus20",
 		dsimmons = "dsimmons",
 		dstanberry = "dstanberry",
@@ -38180,6 +38461,7 @@ return {
 		evgenyvas = "evgenyvas",
 		evilcel3ri = "evilcel3ri",
 		evturn = "evturn",
+		["ewan-wakeman"] = "ewan-wakeman",
 		exaspark = "exAspArk",
 		excvai = "excvai",
 		["f-person"] = "f-person",
@@ -38194,7 +38476,9 @@ return {
 		fadyio = "fadyio",
 		faergeek = "faergeek",
 		fagci = "fagci",
+		fakesudo = "FakeSudo",
 		falacerselene = "FalacerSelene",
+		famiclone = "famiclone",
 		farbodsz = "farbodsz",
 		farisachugthai = "farisachugthai",
 		farvellhub = "farvellhub",
@@ -38233,6 +38517,7 @@ return {
 		["fl-w"] = "fl-w",
 		fladson = "fladson",
 		flaport = "flaport",
+		["flo-slv"] = "Flo-Slv",
 		floaterest = "floaterest",
 		florob = "Florob",
 		flrgh = "flrgh",
@@ -38243,6 +38528,8 @@ return {
 		foryoungyu = "ForyoungYu",
 		fostertheweb = "fostertheweb",
 		fowlie = "fowlie",
+		["fr4nk1in-ustc"] = "Fr4nk1in-USTC",
+		franciniltonsoaresmenzes = "franciniltonsoaresmenzes",
 		franciscoj = "franciscoj",
 		francoiscabrol = "francoiscabrol",
 		francoserio = "francoserio",
@@ -38333,16 +38620,20 @@ return {
 		gnuyent = "gnuyent",
 		goolord = "goolord",
 		gordio = "gordio",
+		["gordun209-hub"] = "gordun209-hub",
+		gotoren = "GotoRen",
 		gou3105 = "gou3105",
 		gpanders = "gpanders",
 		gpont = "gpont",
 		gquittet = "gquittet",
 		grantmacken = "grantmacken",
+		gravndal = "gravndal",
 		grayjack = "GrayJack",
 		grecodavide = "grecodavide",
 		green726 = "green726",
 		gremax = "gremax",
 		grenmester = "grenmester",
+		grimerssy = "grimerssy",
 		grimoh = "grimoh",
 		grscheller = "grscheller",
 		gsass1 = "gsass1",
@@ -38440,6 +38731,7 @@ return {
 		hjkl01 = "hjkl01",
 		hkupty = "hkupty",
 		hladek = "hladek",
+		hlucco = "hlucco",
 		["hmaier-ipb"] = "hmaier-ipb",
 		hoangdesu = "hoangdesu",
 		hoenirvili = "hoenirvili",
@@ -38599,6 +38891,7 @@ return {
 		jbyuki = "jbyuki",
 		jcartledge = "jcartledge",
 		jceb = "jceb",
+		jcha0713 = "jcha0713",
 		jchilders = "jchilders",
 		jcrd = "jcrd",
 		jcteo = "jcteo",
@@ -38638,6 +38931,7 @@ return {
 		jkavan = "jkavan",
 		jla524 = "jla524",
 		jlesquembre = "jlesquembre",
+		jlll1 = "Jlll1",
 		jlobos = "jlobos",
 		jlucier = "jlucier",
 		jmackie = "jmackie",
@@ -38789,6 +39083,7 @@ return {
 		kiran94 = "kiran94",
 		kirillbobyrev = "kirillbobyrev",
 		kirintwn = "kirintwn",
+		kitanoyoru = "kitanoyoru",
 		kiyeo = "kiyeo",
 		kizza = "kizza",
 		kjelly = "kjelly",
@@ -38901,6 +39196,7 @@ return {
 		lexndru = "lexndru",
 		lfenzo = "lfenzo",
 		lgranie = "lgranie",
+		lgug2z = "LGUG2Z",
 		liberatys = "Liberatys",
 		liberxue = "Liberxue",
 		lightdiscord = "lightdiscord",
@@ -38986,6 +39282,7 @@ return {
 		["luong-komorebi"] = "luong-komorebi",
 		luukvbaal = "luukvbaal",
 		luzhlon = "luzhlon",
+		lvimuser = "lvimuser",
 		lwflwf1 = "lwflwf1",
 		lxhillwind = "lxhillwind",
 		lyb200 = "lyb200",
@@ -38998,6 +39295,7 @@ return {
 		m3tro1d = "m3tro1d",
 		m4thewz = "m4thewz",
 		m4yk3ldev = "m4yk3ldev",
+		maacpiash = "maacpiash",
 		macthecadillac = "macthecadillac",
 		madintist = "madintist",
 		madskjeldgaard = "madskjeldgaard",
@@ -39035,6 +39333,7 @@ return {
 		mars90226 = "mars90226",
 		["martin-svk"] = "martin-svk",
 		martinbjeldbak = "martinbjeldbak",
+		martineausimon = "martineausimon",
 		martinpelikan = "martinpelikan",
 		martins3 = "Martins3",
 		masa300v = "masa300V",
@@ -39056,6 +39355,7 @@ return {
 		mattialancellotti = "mattialancellotti",
 		["mattio-cmd"] = "Mattio-cmd",
 		mattpreziotti = "mattpreziotti",
+		matts966 = "Matts966",
 		matveyt = "matveyt",
 		matyle = "matyle",
 		mauricioszabo = "mauricioszabo",
@@ -39174,6 +39474,7 @@ return {
 		mlorthiois = "mlorthiois",
 		mmarusyk = "mmarusyk",
 		mmsaeed509 = "mmsaeed509",
+		mmudabirkuchey = "MMudabirKuchey",
 		mnabila = "mnabila",
 		mnacamura = "mnacamura",
 		mnewt = "mnewt",
@@ -39204,6 +39505,7 @@ return {
 		["mr-ubik"] = "mr-ubik",
 		mracos = "mracos",
 		mrbeardad = "mrbeardad",
+		mrbjarksen = "mrbjarksen",
 		mrdarcychen = "mrdarcychen",
 		mrever = "mrever",
 		mrinjamul = "mrinjamul",
@@ -39236,6 +39538,7 @@ return {
 		["musab-nazir"] = "Musab-Nazir",
 		["music-brain88"] = "music-brain88",
 		mustardfrog = "mustardfrog",
+		mvcvalli = "Mvcvalli",
 		mvilim = "mvilim",
 		mvllow = "mvllow",
 		mvpopuk = "mvpopuk",
@@ -39254,6 +39557,7 @@ return {
 		naftulikay = "naftulikay",
 		naggie = "naggie",
 		naibaf0 = "naibaf0",
+		naijab = "naijab",
 		namakete = "Namakete",
 		namjul = "namjul",
 		nannanmath = "nannanmath",
@@ -39323,6 +39627,7 @@ return {
 		nicoe = "nicoe",
 		["nicolas-yangli"] = "nicolas-yangli",
 		nicolasacquaviva = "nicolasacquaviva",
+		nicolascb = "nicolascb",
 		nicolasgross = "nicolasgross",
 		nicolimo86 = "nicolimo86",
 		nightvim = "NightVim",
@@ -39348,8 +39653,10 @@ return {
 		noahfrederick = "noahfrederick",
 		noahrr = "NoahRR",
 		nodeg = "nodeg",
+		noetarbouriech = "noetarbouriech",
 		["noi-q"] = "Noi-q",
 		noib3 = "noib3",
+		noncomplete = "noncomplete",
 		nonomain = "nonoMain",
 		nonrice = "nonrice",
 		nonzer0 = "nonzer0",
@@ -39422,6 +39729,7 @@ return {
 		olexsmir = "olexsmir",
 		olical = "Olical",
 		olimorris = "olimorris",
+		olivercederborg = "olivercederborg",
 		oliverdelancey = "oliverdelancey",
 		omar25h = "omar25h",
 		omarabdeldayem = "omarabdeldayem",
@@ -39605,6 +39913,7 @@ return {
 		["qiz-li"] = "qiz-li",
 		quacktiamauct = "Quacktiamauct",
 		quantumfate = "quantumfate",
+		["quarto-dev"] = "quarto-dev",
 		quqiuzhu = "quqiuzhu",
 		qvacua = "qvacua",
 		qwexvf = "qwexvf",
@@ -39729,6 +40038,7 @@ return {
 		ronaldzhao = "RonaldZhao",
 		ronansh = "ronansh",
 		["rose-pine"] = "rose-pine",
+		rouge8 = "rouge8",
 		roxma = "roxma",
 		rraks = "rraks",
 		rrethy = "RRethy",
@@ -39753,6 +40063,7 @@ return {
 		ryawcksn = "RyaWcksn",
 		rydesun = "rydesun",
 		ryoppippi = "ryoppippi",
+		["ryusei-0407"] = "Ryusei-0407",
 		rzaluska = "rzaluska",
 		s1as3r = "s1as3r",
 		s1n7ax = "s1n7ax",
@@ -40115,6 +40426,7 @@ return {
 		["timmyjose-config"] = "timmyjose-config",
 		timothyklim = "timothyklim",
 		timothyye = "TimothyYe",
+		timrekelj = "timrekelj",
 		tinku10 = "Tinku10",
 		tinoji = "tinoji",
 		tinytub = "tinytub",
@@ -40164,6 +40476,7 @@ return {
 		tsub = "tsub",
 		["tsubota-kouga"] = "tsubota-kouga",
 		tsushant = "tsushant",
+		tsuzat = "Tsuzat",
 		ttak0422 = "ttak0422",
 		["tu-vu"] = "tu-vu",
 		tuannguyen2504 = "TuanNguyen2504",
@@ -40253,6 +40566,7 @@ return {
 		vimberlin = "vimberlin",
 		vimhack = "vimhack",
 		vimjas = "Vimjas",
+		vimpl = "vimpl",
 		vimpostor = "vimpostor",
 		vimweek = "vimweek",
 		vindecodex = "vindecodex",
@@ -40352,6 +40666,7 @@ return {
 		wsgggws = "wsgggws",
 		wstrm = "wstrm",
 		wtchrs = "wtchrs",
+		wuelnerdotexe = "wuelnerdotexe",
 		wug978 = "WuG978",
 		wujunchuan = "wujunchuan",
 		wulymammoth = "wulymammoth",
@@ -40441,6 +40756,7 @@ return {
 		yuweijun = "yuweijun",
 		zacanger = "zacanger",
 		zaerald = "zaerald",
+		zakharykaplan = "zakharykaplan",
 		["zane-"] = "Zane-",
 		zanglg = "zanglg",
 		zaszi = "zaszi",

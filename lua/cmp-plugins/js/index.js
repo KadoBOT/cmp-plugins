@@ -17,8 +17,8 @@ const url = (page = 1, created) => {
 	return base.toString()
 }
 const fullList = { _map: {}, repos: {} }
-// 15-07-22
-const dates = ['created:2022-06-30..*']
+// 08-08-22
+const dates = ['created:2022-07-15..*']
 let pages = 10
 
 async function run() {
@@ -87,7 +87,7 @@ async function run() {
 
 		const newList = { repos: orderedRepos, _map: orderedMap }
 
-		writeFile("./js/list.json", JSON.stringify(newList))
+		writeFile("./js/list.json", JSON.stringify(newList, null, 4))
 		writeFile("./list.lua", format(newList))
 	}
 }
