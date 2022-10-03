@@ -81,7 +81,8 @@ function setup(_opts)
 		elseif incompleteUser then
 			local users = {}
 			for _, value in pairs(repos._map) do
-				table.insert(users, { label = value, detail = "https://github.com/" .. value })
+				table.insert(users, { label = value, insertText = value.."/",
+					word = value, detail = "https://github.com/" .. value })
 			end
 			callback({ items = users, isIncomplete = table.getn(users) ~= 1 })
 		else
