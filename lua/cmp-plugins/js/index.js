@@ -17,8 +17,8 @@ const url = (page = 1, created) => {
 	return base.toString()
 }
 const fullList = { _map: {}, repos: {} }
-// 08-08-22
-const dates = ['created:2022-07-15..*']
+// 03-10-22
+const dates = ['created:2022-08-08..*']
 let pages = 10
 
 async function run() {
